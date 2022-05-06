@@ -51,10 +51,11 @@ header {
     padding: 3rem 3rem;
     margin: 0px 0px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 1.3rem;
+    /* flex-wrap: wrap; */
     background-color: var(--back-color);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -172,6 +173,28 @@ header {
     border-radius: 2rem;
 } */
 
+@media screen and (min-width: 1000px) {
+    #sobre {
+        flex-direction: row;
+        height: 30rem;
+    }
 
+    figure {
+        width: 2200px;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    #sobreMim {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    #nome {
+        font-size: 2.5rem;
+    }
+}
 
 
