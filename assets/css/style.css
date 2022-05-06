@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: var(--prim-color);
-    font-family: 'DM Sans', sans-serif;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
     margin: 0px 0px;
 }
 
@@ -56,19 +56,23 @@ header {
     align-items: center;
     gap: 1.3rem;
     /* flex-wrap: wrap; */
-    background-color: var(--back-color);
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    /* background-color: var(--back-color); */
+    background-image: url('/assets/img/BG.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
 
 }
 
 #nome {
+    color: #ffffff;
     font-size: 1.6rem;
     margin: 0 0;
 }
 
 #sobreMim {
-    color: #002a7f;
+    color: #ffffff;
     font-size: 1.1rem;
     font-weight: 500;
 }
@@ -85,7 +89,7 @@ header {
 }
 
 .secao h2 {
-    color: #0080ca;
+    color: #4abdff;
     font-size: 1.4rem;
     margin-bottom: 0rem;
     text-align: center;
@@ -129,7 +133,7 @@ header {
 .box {
     display: grid;
     place-items: center;
-    background-color: white;
+    background-color: rgb(174, 231, 255);
     /* border: 1px solid var(--sec-color); */
     border-radius: 0.5rem;
     padding: 1rem 2rem;
@@ -147,12 +151,12 @@ header {
 
 .hab {
     font-weight: bold;
-    color: var(--sec-color);
+    color: #00588b;
 
 }
 
 .nivel {
-    color: rgb(186, 186, 186);
+    color: rgb(35, 35, 35);
 
 }
 
@@ -180,21 +184,25 @@ header {
     }
 
     figure {
-        width: 2200px;
+        width: 2500px;
     }
 
     figure img {
-        width: 100%;
+        width: 70%;
     }
 
     #sobreMim {
-        font-weight: bold;
+        font-weight: 600;
         font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+        max-width: 2500px;
     }
 
     #nome {
         font-size: 2.5rem;
     }
+
+
 }
 
 
