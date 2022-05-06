@@ -175,35 +175,3 @@ header {
 
 
 
-@media screen and (min-width: 1000px) {
-    #sobre {
-        flex-wrap: nowrap;
-        gap: 3rem;
-        padding-right: 3rem;
-        height: 30rem;
-    }
-
-    #sobre h1 {
-        font-size: 2.4rem;
-    }
-
-    figure img {
-        width: 100%;
-    }
-
-    #containerSobre {
-        width: 60%;
-        gap: 5rem;
-    }
-
-    #coding {
-        margin: 0 0;
-        width: 600px;
-    }
-
-    #sobreMim {
-        color: #002a7f;
-        font-size: 1.4rem;
-        font-weight: 600;
-    }
-}
