@@ -57,7 +57,7 @@ header {
     gap: 1.3rem;
     /* flex-wrap: wrap; */
     /* background-color: var(--back-color); */
-    background-image: url('/assets/img/BG.svg');
+    background-image: url('./assets/img/BG.svg');
     background-repeat: no-repeat;
     background-size: cover;
     /* border-bottom-left-radius: 2rem;
