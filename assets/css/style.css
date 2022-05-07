@@ -111,6 +111,11 @@ header {
 
 }
 
+.btn:hover {
+    transform: scale(105%);
+    background-color: #2bb1ff;
+}
+
 .buttons a {
     text-decoration: none;
 }
@@ -143,7 +148,7 @@ header {
 
 .box:hover {
     background-color: rgb(208, 241, 255);
-    transform: scale(110%);
+    transform: scale(105%);
 }
 
 .box p {
