@@ -1,4 +1,4 @@
-# LandingPage
+# MyPage
 Projeto iniciante com o uso das tecnologias HTML e CSS
 
 ## Link:
