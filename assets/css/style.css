@@ -17,8 +17,6 @@ main {
     padding: auto;
 }
 
-/* .container {
-} */
 
 header {
     display: flex;
@@ -27,6 +25,11 @@ header {
     height: 4rem;
     margin: 0px 0px;
 }
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+} */
 
 .logo {
     position: absolute;
@@ -230,6 +233,14 @@ header {
     width: 80px;
 }
 
+.secao {
+    margin-block: 4rem;
+}
+
+#formacao {
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 1000px) {
     #sobre {
         flex-direction: row;
@@ -257,6 +268,7 @@ header {
 
     #areaFormacao {
         padding-inline: 12rem;
+        margin: 0 0;
     }
 
     #areaFormacao h3 {
@@ -266,17 +278,24 @@ header {
 
     #areaFormacao p {
         font-size: 1.3rem;
-        margin-bottom: 0;
     }
 
     #ADS {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
     #logoUninter img {
-        width: 155px;
+        width: 130px;
+    }
+
+    .secao {
+        margin-block: 5rem;
+    }
+
+    #formacao {
+        margin-bottom: 0;
     }
 
 
