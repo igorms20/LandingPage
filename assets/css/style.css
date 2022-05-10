@@ -188,8 +188,7 @@ header {
 
 #areaFormacao {
     background: linear-gradient(103deg, #006CEA 4.18%, #56BFFA 95.21%);
-    height: 200px;
-    padding: 1rem 1.6rem;
+    padding: 1rem 1.6rem 4rem;
 }
 
 #areaFormacao h2 {
