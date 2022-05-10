@@ -183,17 +183,64 @@ header {
     border-radius: 2rem;
 } */
 
+#areaFormacao {
+    background: linear-gradient(103deg, #006CEA 4.18%, #56BFFA 95.21%);
+    height: 200px;
+    padding: 1rem 1.6rem;
+}
+
+#areaFormacao h2 {
+    margin-bottom: 16px;
+}
+
+#areaFormacao h3 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+    margin: 0 0;
+}
+
+#areaFormacao p {
+    color: #ffffff;
+    margin: 0 0;
+    margin-bottom: 8px;
+
+}
+
+#formacao h2 {
+    color: #ffffff;
+}
+
+#ADS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#logoUninter {
+    margin: 0 0;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#logoUninter img {
+    width: 80px;
+}
+
 @media screen and (min-width: 1000px) {
     #sobre {
         flex-direction: row;
         height: 30rem;
     }
 
-    figure {
+    #coding {
         width: 2500px;
     }
 
-    figure img {
+    #coding img {
         width: 70%;
     }
 
@@ -207,6 +254,31 @@ header {
     #nome {
         font-size: 2.5rem;
     }
+
+    #areaFormacao {
+        padding-inline: 12rem;
+    }
+
+    #areaFormacao h3 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #areaFormacao p {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    #ADS {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logoUninter img {
+        width: 155px;
+    }
+
 
 
 }
