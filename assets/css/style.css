@@ -49,9 +49,10 @@ header {
 #themeButton {
     /* background-color: #00588b;
     border-radius: 15px; */
+    width: 25px;
     height: 25px;
     position: absolute;
-    right: 0.3rem;
+    right: 1.8rem;
     /* padding: 2px 8px; */
     background-image: url('/assets/img/theme_icon_black.svg');
     background-repeat: no-repeat;
@@ -332,7 +333,7 @@ header {
     }
 
     #themeButton {
-        right: 1.5rem
+        right: 2.5rem
     }
 
 
