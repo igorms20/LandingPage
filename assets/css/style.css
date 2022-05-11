@@ -20,6 +20,7 @@ main {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     height: 4rem;
@@ -44,6 +45,34 @@ header {
 .logo p strong {
     color: var(--sec-color)
 }
+
+#themeButton {
+    /* background-color: #00588b;
+    border-radius: 15px; */
+    height: 25px;
+    position: absolute;
+    right: 0.3rem;
+    /* padding: 2px 8px; */
+    background-image: url('/assets/img/theme_icon_black.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#themeButton.dark {
+    background-image: url('/assets/img/theme_icon_white.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* #themeButton p {
+    margin: 0;
+    color: #ffffff;
+} */
+
+#themeButton figure {
+    background-image: url('/assets/img/coding.svg');
+}
+
 
 #containerSobre {
     display: flex;
@@ -240,6 +269,11 @@ header {
     margin-bottom: 0;
 }
 
+.dark {
+    background-color: rgb(13, 13, 13);
+    color: #ffffff;
+}
+
 @media screen and (min-width: 1000px) {
     #sobre {
         flex-direction: row;
@@ -297,6 +331,9 @@ header {
         margin-bottom: 0;
     }
 
+    #themeButton {
+        right: 1.5rem
+    }
 
 
 }
