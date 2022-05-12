@@ -167,10 +167,13 @@ header {
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 1rem;
+    opacity: 0;
+    transform: translateX(-20px)
 }
 
 .box {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     place-items: center;
     background-color: rgb(174, 231, 255);
     /* border: 1px solid var(--sec-color); */
@@ -181,7 +184,9 @@ header {
 
 .box:hover {
     background-color: rgb(208, 241, 255);
-    transform: scale(105%);
+    /* transform: scale(105%); */
+    animation: scale .5s ease;
+    animation-fill-mode: forwards;
 }
 
 .box p {
@@ -275,6 +280,13 @@ header {
     color: #ffffff;
 }
 
+.slide-animation {
+    animation: slide .5s ease;
+    animation-fill-mode: forwards;
+
+
+}
+
 @media screen and (min-width: 1000px) {
     #sobre {
         flex-direction: row;
@@ -340,3 +352,18 @@ header {
 }
 
 
+@keyframes scale {
+    from {
+
+    }
+    to {
+        transform: scale(105%);
+    }
+}
+
+@keyframes slide {
+    to {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
