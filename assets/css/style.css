@@ -109,6 +109,8 @@ header {
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: 500;
+    height: 100%
+    /* object-fit: contain; */
 }
 
 #social {
@@ -283,8 +285,13 @@ header {
 .slide-animation {
     animation: slide .5s ease;
     animation-fill-mode: forwards;
+}
 
-
+#areaSobre {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    justify-content: center;
 }
 
 @media screen and (min-width: 1000px) {
@@ -328,8 +335,9 @@ header {
 
     #ADS {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        
     }
 
     #logoUninter img {
@@ -348,7 +356,25 @@ header {
         right: 2.5rem
     }
 
+    #areaSobre {
+        max-height: 400px;
+        margin: auto;
+    }
 
+
+}
+
+@media screen and (min-width: 775px) {
+    #ADS {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .infoCurso h3, .infoCurso p {
+        font-size: 22px !important;
+    }
 }
 
 
